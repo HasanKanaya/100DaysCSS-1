@@ -5,7 +5,6 @@
 }
 
 body {
-  background: rgb(2, 0, 36);
   background: linear-gradient(40deg, #191b6b 10%, #019dff 100%);
   height: 100vh;
   display: flex;
@@ -34,4 +33,22 @@ body {
 .text .three {
   font-size: 40px;
   word-spacing: 30px;
+}
+
+@media (max-width: 500px) {
+  .text {
+    font-size: 50px;
+  }
+  .text .one {
+    font-size: 100px;
+    letter-spacing: -5px;
+  }
+  .text .two {
+    margin: -20px;
+    margin-top: -25px;
+  }
+  .text .three {
+    font-size: 30px;
+    word-spacing: 10px;
+  }
 }
